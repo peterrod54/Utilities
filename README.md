@@ -1,2 +1,2 @@
 # LogSpear
-Windows Log Analyzer
+Windows Log Aggregator & Analyzer
