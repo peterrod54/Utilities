@@ -11,4 +11,4 @@ While the log management solution that I have alluded to is beyond the scope of 
 ### Dependencies
 
 + The LogSpear utility app is exclusive to the Windows environment
-+ You should consider running the app with elevated permissions if you expect to gather the _Security_ logs (**which naturally you'll want to include in your log analysis**)
++ You should consider running the app with elevated permissions if you expect to gather the _Security_ logs (_which naturally you'll want to include in your log analysis_)
