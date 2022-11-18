@@ -4,7 +4,7 @@ This project introduces a cost effective approach to Windows log management, spe
 
 ## Description
 
-There are between 700 and 800 log-file types on any given Windows Server - _ more depending upon installed applications and devices_. Yet, for most IT administrators, the focus is on only three log files: _Application, System_, and _Security_. 
+There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for most IT administrators, the focus is on only three log files: _Application, System_, and _Security_. 
 
 When you consider the plethera of log-file types that provide crucial information on the general health of your systems, it's evident that focusing on only those three log files is being a bit short-sighted. It's also evident that a log management solution becomes more than just a _nice to have_.
 
