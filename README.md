@@ -25,4 +25,4 @@ The LogSpear utility app is designed to pull _error, waring_ and _critical_ even
 
 ## What's Next
 
-While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to, it is nevertheless the foundation. If you're interested in deploying an enterprise-wide, cost-effective log management solution, then reach out to discuss this matter and arrange a demo: [Peter](mailto:peter@variacom.com)
+While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to, it is nevertheless its foundation. If you're interested in deploying an enterprise-wide, cost-effective log management solution, then reach out to discuss this matter and arrange a demo: [Peter](mailto:peter@variacom.com)
