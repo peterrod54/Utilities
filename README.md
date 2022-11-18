@@ -1,4 +1,4 @@
-# Windows Log Aggregator & Analyzer
+# Windows Log Aggregator & Analyzer (_LogSpear_)
 
 ## Description
 In addition to the _Application_, _Security_ and _System_ logs, there are between 700 and 800 log-file types on any given Windows Server; while some servers will contain more log-types depending on installed applications and hardware devices for that server.
