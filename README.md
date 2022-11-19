@@ -4,9 +4,9 @@ This project introduces a cost effective approach to Windows log management, spe
 
 ## Description
 
-There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for most IT administrators, the focus is on only three log files: _Application, System_, and _Security_. 
+There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for most IT administrators, the focus is on only three log file types: _Application, System_, and _Security_. 
 
-When you consider the plethora of log-file types that provide important information on the general health of your systems, it's evident that focusing on only three log files is being a bit short-sighted. It's also evident that a log management solution becomes more than just a _nice to have_.
+When you consider the plethora of log-file types that provide important information on the general health of your systems, it's evident that focusing on only three log file types is being a bit short-sighted. It's also evident that a log management solution becomes more than just a _nice to have_.
 
 The LogSpear utility app is designed to pull _error, warning_ and _critical_ events, from every log file and output the results as a CSV file to the **_C:\temp_** folder.
 
@@ -29,5 +29,3 @@ The LogSpear utility app is designed to pull _error, warning_ and _critical_ eve
 ## What's Next
 
 While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless at the core of its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, we can arrange an in-depth discussion and demo: [Peter](mailto:peter@variacom.com)
-
-While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, then please reach out for a discussion and arrange a demo: [Peter](mailto:peter@variacom.com)
