@@ -1,32 +1,32 @@
 # Windows Log Aggregator & Analyzer (_LogSpear_)
 
-This project introduces a cost effective approach to Windows log management, specifically targeting the _Small Medium-Sized Business_ **(SMB)** who, in general, have avoided pricey log management solutions, i.e. _Splunk_, _LogRythm_, et al. For the SMB, it's about getting the most bang for your buck; yet, there's no reason why the SMB can't get the same effective log management solution _for pennies on the dollar_.
+This project introduces a cost effective approach to Windows Log Management, specifically targeting the _Small Medium-Sized Business_ **(SMB)** who, as a whole, have avoided pricey log management solutions, i.e. _Splunk_, _LogRythm_, et al. For the SMB, it's about getting the most bang for your buck.
 
 ## Description
 
-There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for most IT administrators, the focus is on only three log file types: _Application, System_, and _Security_. 
+There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for many IT administrators, the focus is on only three log-file types: _Application, System_, and _Security_. 
 
-When you consider the plethora of log-file types that provide important information on the general health of your systems, it's evident that focusing on only three log file types is being a bit short-sighted. It's also evident that a log management solution becomes more than just a _nice to have_.
+When you consider the plethora of log-file types providing important information on the general health of your systems, it's evident that focusing on only _three_ is short-sighted. It is also evident that the notion of a log management solution becomes more than just a _nice to have_.
 
-The LogSpear utility app is designed to pull _error, warning_ and _critical_ events, from every log file and output the results as a CSV file to the **_C:\temp_** folder.
+The LogSpear utility is designed to pull _error, warning_ and _critical_ events, from every log file and output the results (as a CSV file) to the **_C:\temp_** folder.
 
 
 ## Getting Started
 
 ### Dependencies
 
-+ The **_LogSpear_** utility only works in a Windows environment; it will not run on Linux or macOS.
++ The **_LogSpear_** utility is Windows based; LogSpear will not run on Linux or macOS
++ The current iteration of LogSpear works on a per-server basis
 
 ### Installation and Execution Instructions
 
-+ Download/install the 7-Zip file extraction software: [download site](https://www.7-zip.org/download.html)
-+ Download and extract _LogSpear.7z_ from GitHub repository, and when prompted for password, enter: _qwerty_
-+ Run _LogSpear.exe_
-+ You'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
-+ If you expect to collect _Security_ logs, then you'll need to run the app with elevated permissions (LogSpear will still collect log data without elevated permissions, just not the Security logs)
++ Download and install the _7-Zip_ compression/extraction software: [download site](https://www.7-zip.org/download.html)
++ Download and extract _LogSpear.7z_ (current GitHub repository), and when prompted for password enter: _qwerty_
++ When executing _LogSpear.exe_, you'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
++ Collecting _Security_ logs requires elevated permissions (LogSpear will still collect log data without elevated permissions, but not Security logs)
 
-###### **NOTE:** Obscure antivirus engines have registered a false-positive regarding the LogSpear utility. It's suggested that you use a browser other than Microsoft Edge to download the utility.
+###### **NOTE:** Obscure antivirus engines registered a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
 
 ## What's Next
 
-While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless at the core of its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, we can arrange an in-depth discussion and demo: [Click here](mailto:peter@variacom.com)
+While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless at the core of its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, please request an in-depth discussion and demo: [Click here](mailto:peter@variacom.com)
