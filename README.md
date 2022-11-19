@@ -17,11 +17,12 @@ The LogSpear utility app is designed to pull _error, warning_ and _critical_ eve
 
 + The **_LogSpear_** utility only works in a Windows environment; it will not run on Linux or macOS.
 
-### Installation and Execution
+### Installation and Execution Instructions
 
 + Download/install the 7-Zip file extraction software: [download site](https://www.7-zip.org/download.html)
 + Download and extract _LogSpear.7z_ from GitHub repository, and when prompted for password, enter: _qwerty_
-+ Run _LogSpear.exe_ and enter the start time (in hours) where you want LogSpear to begin collecting events
++ Run _LogSpear.exe_
++ You'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
 + If you expect to collect _Security_ logs, then you'll need to run the app with elevated permissions (LogSpear will still collect log data without elevated permissions, just not the Security logs)
 
 ###### **NOTE:** A couple of obscure antivirus engines have registered a false-positive regarding the LogSpear utility app.
