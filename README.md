@@ -6,7 +6,7 @@ This project introduces a cost effective approach to Windows log management, spe
 
 There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for most IT administrators, the focus is on only three log files: _Application, System_, and _Security_. 
 
-When you consider the plethera of log-file types that provide crucial information on the general health of your systems, it's evident that focusing on only those three log files is being a bit short-sighted. It's also evident that a log management solution becomes more than just a _nice to have_.
+When you consider the plethora of log-file types that provide crucial information on the general health of your systems, it's evident that focusing on only those three log files is being a bit short-sighted. It's also evident that a log management solution becomes more than just a _nice to have_.
 
 The LogSpear utility app is designed to pull _error, waring_ and _critical_ events, from every log file and output the results as a CSV file to the **_C:\temp_** folder.
 
@@ -15,13 +15,17 @@ The LogSpear utility app is designed to pull _error, waring_ and _critical_ even
 
 ### Dependencies
 
-+ The **_LogSpear_** utility app is exclusive to the Windows environment; it will not run on Linux or MacOS.
++ The **_LogSpear_** utility app is exclusive to the Windows environment; it will not run on Linux or macOS.
 
 ### Installation and Execution
 
-+ Download the LogSpear utility and run it on the server that you want to collect the Windows logs. 
-+ Follow the prompts that appear on the screen, in particular, enter the _start time_ (in hours) where you want LogSpear to begin collecting events
-+ Consider running the app with elevated permissions if you expect to gather _Security_ logs (_which naturally you'll want to include in your log analysis_)
++ Download/install the 7-Zip file extraction software: [download](https://www.7-zip.org/download.html)
++ Download _LogSpear.7z_ 
++ Extract the file using 7-Zip and when prompted for password, enter: _qwerty_
++ Run _LogSpear.exe_ and enter the start time (in hours) where you want LogSpear to begin collecting events
++ If you expect to collect _Security_ logs, then you'll need to run the app with elevated permissions (LogSpear will still collect log data without elevated permissions, just not the Security logs)
+
+###### **NOTE:** A couple of obscure antivirus engines have registered a false-positive regarding the LogSpear utility app.
 
 ## What's Next
 
