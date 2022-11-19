@@ -15,11 +15,11 @@ The LogSpear utility app is designed to pull _error, waring_ and _critical_ even
 
 ### Dependencies
 
-+ The **_LogSpear_** utility app is exclusive to the Windows environment; it will not run on Linux or macOS.
++ The **_LogSpear_** utility app only works in a Windows environment; it will not run on Linux or macOS.
 
 ### Installation and Execution
 
-+ Download/install the 7-Zip file extraction software: [download](https://www.7-zip.org/download.html)
++ Download/install the 7-Zip file extraction software: [download site](https://www.7-zip.org/download.html)
 + Download _LogSpear.7z_ 
 + Extract the file using 7-Zip and when prompted for password, enter: _qwerty_
 + Run _LogSpear.exe_ and enter the start time (in hours) where you want LogSpear to begin collecting events
@@ -29,4 +29,4 @@ The LogSpear utility app is designed to pull _error, waring_ and _critical_ even
 
 ## What's Next
 
-While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to, it is nevertheless its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, then please reach out for a discussion and arrange a demo: [Peter](mailto:peter@variacom.com)
+While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, then please reach out for a discussion and arrange a demo: [Peter](mailto:peter@variacom.com)
