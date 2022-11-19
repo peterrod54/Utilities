@@ -25,7 +25,7 @@ The LogSpear utility app is designed to pull _error, warning_ and _critical_ eve
 + You'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
 + If you expect to collect _Security_ logs, then you'll need to run the app with elevated permissions (LogSpear will still collect log data without elevated permissions, just not the Security logs)
 
-###### **NOTE:** A couple of obscure antivirus engines have registered a false-positive regarding the LogSpear utility app.
+###### **NOTE:** Obscure antivirus engines have registered a false-positive regarding the LogSpear utility. It's suggested that you use a browser other than Microsoft Edge to download the utility.
 
 ## What's Next
 
