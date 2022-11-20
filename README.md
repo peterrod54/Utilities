@@ -24,7 +24,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 + When executing _LogSpear.exe_, you'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
 + Collecting _Security_ logs requires elevated permissions (LogSpear will still collect log data without elevated permissions, but not Security logs)
 
-###### **NOTE:** Obscure antivirus engines registered a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
+###### **NOTE:** Obscure antivirus engines register a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
 
 ## What's Next
 
