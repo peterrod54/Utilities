@@ -1,10 +1,10 @@
 # Windows Log Aggregator & Analyzer (_LogSpear_)
 
-This project introduces a cost effective approach to Windows Log Management, specifically targeting the _Small Medium-Sized Business_ **(SMB)** who, as a whole, have avoided pricey log management solutions, i.e. _Splunk_, _LogRythm_, et al. For the SMB, it's about getting the most bang for your buck.
+This project introduces a cost effective approach to Windows Log Management, specifically targeting the _Small Medium-Sized Business_ **(SMB)** who, as a whole, have avoided pricey log management solutions, i.e. _Splunk_, _LogRythm_, et al. _LogSpear_ seamlessly aggregates Windows event logs and is the foundation for implementing an inexpensive log management solution.
 
 ## Description
 
-There are between 700 and 800 log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for many IT administrators, the focus is on only three log-file types: _Application, System_, and _Security_. 
+There are between 700 and 800 event log-file types on any given Windows Server, _more depending upon installed applications and devices_. Yet, for many IT administrators, the focus is typically on only three log-file types: _Application, System_, and _Security_. 
 
 When you consider the plethora of log-file types providing important information on the general health of your systems, it's evident that focusing on only _three_ is short-sighted. It is also evident that the notion of having a log management solution becomes more than just a _nice to have_.
 
@@ -29,8 +29,8 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 ### Suggested Use
 
 After the csv file has been generated, you have a couple of options. You can:
-+ Do a SQL bulk insert - leverage Power BI or SSRS to create reports, dashboards, etc.
-+ Convert the csv file to other file formats, i.e., xml, xlsx, et cetera
++ Do a SQL bulk insert; subsequently leverage Power BI or SSRS to create reports, dashboards, etc.
++ Convert the csv file to other file formats, i.e., xml, xlsx, et cetera, for data modeling
 
 ## What's Next
 
