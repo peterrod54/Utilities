@@ -26,6 +26,12 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 
 ###### **NOTE:** Obscure antivirus engines register a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
 
+### Suggested Use
+
+After the csv file has been generated, you have a couple of options. You can:
++ Do a SQL bulk insert - leverage Power BI or SSRS to create reports, dashboards, etc.
++ Convert the csv file to other file formats, i.e., xml, xlsx, et cetera
+
 ## What's Next
 
-While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless at the core of its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, please contact us and we'll provide you a demo: [Click here](mailto:peter@variacom.com)
+While the **_LogSpear_** utility is not (_in and of itself_) the log management solution alluded to earlier, it is nevertheless at the core of its foundation. If you're interested in deploying an _enterprise-wide, cost-effective_ log management solution, please reach out for a demo: [Click here](mailto:peter@variacom.com)
