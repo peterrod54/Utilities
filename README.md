@@ -20,8 +20,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 
 ### Installation and Execution Instructions
 
-+ Download and install the _7-Zip_ compression/extraction software: [download site](https://www.7-zip.org/download.html)
-+ Download and extract _LogSpear.7z_ (current GitHub repository), and when prompted for password enter: _qwerty_
++ Download _LogSpear.exe_ (current GitHub repository)
 + When executing _LogSpear.exe_, you'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
 + Collecting _Security_ logs requires elevated permissions (LogSpear will still collect log data without elevated permissions, but not Security logs)
 
