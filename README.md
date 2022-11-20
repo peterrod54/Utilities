@@ -15,7 +15,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 
 ### Dependencies
 
-+ The **_LogSpear_** utility is Windows based; LogSpear will not run on Linux or macOS
++ The **_LogSpear_** utility is Windows-_based_; LogSpear will not run on Linux or macOS
 + The current iteration of LogSpear works on a per-server basis
 
 ### Installation and Execution Instructions
