@@ -15,12 +15,12 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 
 ### Dependencies
 
-+ The **_LogSpear_** utility is Windows-_based_; LogSpear will not run on Linux or macOS
-+ The current iteration of LogSpear works on a per-server basis
++ The **_LogSpear_** utility is Windows-_based_ (_LogSpear will not run on Linux or macOS_)
++ The _GitHub_ iteration of LogSpear only works on a per-server basis (there is however an _Enterprise_ version)
 
 ### Installation and Execution Instructions
 
-+ Download _LogSpear.exe_ (current GitHub repository)
++ Download _LogSpear.exe_ 
 + When executing _LogSpear.exe_, you'll be prompted to enter the start time (in hours) where you want LogSpear to begin collecting events
 + Collecting _Security_ logs requires elevated permissions (LogSpear will still collect log data without elevated permissions, but not Security logs)
 
