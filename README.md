@@ -30,7 +30,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 
 After the csv file has been generated, you have a couple of options. You can:
 + Do a SQL bulk insert; subsequently leverage Power BI or SSRS to create reports, dashboards, etc.
-+ Convert the csv file to other file formats, i.e., xml, xlsx, et cetera, for data modeling
++ Convert the csv file to other file formats, i.e., xml, xlsx, et cetera, for _ETL_ data modeling
 
 ## What's Next
 
