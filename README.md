@@ -1,6 +1,6 @@
 #  Windows Log Aggregator & Analyzer (_LogSpear_)
 
-This project introduces a cost effective approach to Windows Log Management, specifically targeting the _Small Medium-Sized Business_ **(SMB)** who, as a whole, have avoided pricey log management solutions, i.e. _Splunk_, _LogRythm_, et al. _LogSpear_ seamlessly aggregates Windows event logs and is the foundation for implementing an inexpensive log management solution.
+This project introduces a cost effective approach to Windows Log Management
 
 ## Description
 
