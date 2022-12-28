@@ -8,7 +8,7 @@ There are between 700 and 800 event log-file types on any given Windows Server, 
 
 When you consider the plethora of log-file types providing important information on the general health of your systems, it's evident that focusing on only _three_ is short-sighted. It is also evident that the notion of having a log management solution becomes more than just a _nice to have_.
 
-The LogSpear utility is designed to pull _error, warning_ and _critical_ events, from every log file and output the results (as a well-formatted XLSX file) to the **_C:\temp\LogSpear_** folder.
+The LogSpear utility is designed to pull _error, warning_ and _critical_ events, from every log file and output the results (as a well-formatted _XLSX_ file) to the **_C:\temp\LogSpear_** folder.
 
 
 ## Getting Started
@@ -21,7 +21,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 ### Installation and Execution Instructions
 
 + Download _LogSpear.exe_ 
-+ When executing _LogSpear.exe_, you'll be prompted to enter the hostname of the server that you want to collect the logs file from, and the start time (in hours) where you want LogSpear to begin collecting events
++ When executing _LogSpear.exe_, you'll be prompted to enter the hostname of the server that you want to collect the log files from, and the start time (in hours) where you want LogSpear to begin collecting events
 + Collecting the _Security_ logs requires elevated permissions (LogSpear will still collect log data without elevated permissions, but not the Security logs)
 
 ###### **NOTE:** Obscure antivirus engines register a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
