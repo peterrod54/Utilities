@@ -21,7 +21,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 ### Installation and Execution Instructions
 
 + Download _LogSpear.exe_ 
-+ When executing _LogSpear.exe_, you'll be prompted to enter the hostname of the server that you want to collect the log files from, and the start time (in hours) where you want LogSpear to begin collecting events
++ When executing _LogSpear.exe_, you'll be prompted to enter the _hostname_ of the server that you want to collect the log files from, and the start time (in hours) where you want LogSpear to begin collecting events
 
 ###### **NOTE:** Obscure antivirus engines register a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
 
