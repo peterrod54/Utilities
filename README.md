@@ -1,6 +1,6 @@
 #  Windows Log Aggregator & Analyzer (_LogSpear_)
 
-This project introduces a cost effective approach to Windows Log Management
+This project introduces a cost effective approach to Windows Log Management.
 
 ## Description
 
