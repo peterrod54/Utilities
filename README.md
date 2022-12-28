@@ -17,6 +17,7 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 
 + The **_LogSpear_** utility is _currently_ Windows-based (_LogSpear will not run on Linux or macOS_; however, future versions will support Linux)
 + The _GitHub_ iteration of LogSpear only works on a per-server basis (there is however an _Enterprise_ version)
++ Requires the EXCEL application to view the output file
 
 ### Installation and Execution Instructions
 
