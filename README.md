@@ -6,7 +6,7 @@ The purpose of this project is to provide an assortment of Windows tools to assi
 
 ### Description
 
-This utility inventories software installation of your Windows domain environment (_default mode_). If not a member of a domain, then it runs in single-host mode.
+This utility inventories installed software pertaining to your Windows domain environment (_default mode_). If no domain exists, then it runs in single-host mode.
 
 
 ## Windows Log Aggregator & Analyzer (_LogSpear_)
@@ -36,4 +36,5 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 + When executing _LogSpear.exe_, you'll be prompted to enter the _hostname_ of the server that you want to collect the log files from, and the start time (in hours) where you want LogSpear to begin collecting events
 
 ###### **NOTE:** Obscure antivirus engines register a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
+
 
