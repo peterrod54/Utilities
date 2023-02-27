@@ -2,6 +2,12 @@
 
 The purpose of this project is to provide an assortment of Windows tools to assist in managing your environment. Below is a description of each utility.
 
+## Network Shares
+
+### Description
+
+This utility does an audit of Access-Controls (ACL) of network shares. This utility works on a per network share basis.  Please contact me if you're interested in an Enterprise-wide solution.
+
 ## Software Inventory
 
 ### Description
@@ -36,6 +42,4 @@ The LogSpear utility is designed to pull _error, warning_ and _critical_ events,
 + When executing _LogSpear.exe_, you'll be prompted to enter the _hostname_ of the server that you want to collect the log files from, and the start time (in hours) where you want LogSpear to begin collecting events
 
 ###### **NOTE:** Obscure antivirus engines register a false-positive regarding the LogSpear utility. It's recommended that you use a browser other than Microsoft Edge for downloading.
-
-
 
