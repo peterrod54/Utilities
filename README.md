@@ -1,6 +1,6 @@
 # Windows-_Based_ Utilities
 
-The purpose of this project is to provide an assortment of Windows tools to assist in managing your environment. Below is a description of each utility.
+An assortment of Windows-based utilities are provided to assist in managing your environment. More utilities forthcoming. Below is a description of each utility.
 
 ## Network Shares
 
